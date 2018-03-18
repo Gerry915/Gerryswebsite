@@ -1,30 +1,53 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./src/css/myStyle.css>"
+    <link rel="stylesheet" href="/src/css/myStyle.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:500" rel="stylesheet">
-  </head>
-  <body>
-        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-dark border-bottom box-shadow sticky-top">
-                <a class="navbar-brand myBrand" href="#">
-                        <img src="/src/img/html-coding (1).png" width="30" height="30" alt="">
-                    </a>
-            <h5 class="navbar-brand my-0 mr-md-auto font-weight-bold text-light">Gerry Studio</h5>
-            <nav class="my-2 my-md-0 mr-md-3 navbar-dark">
-                <a class="p-2 text-light" href="./index.html">Home</a>
-                <a class="p-2 text-light" href="./about.html">About Me</a>
-                <a class="p-2 text-light" href="#info1">My Work</a>
-                <a class="p-2 text-light" href="#contact">Contact Me</a>
-            </nav>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/regular.js" integrity="sha384-t7yHmUlwFrLxHXNLstawVRBMeSLcXTbQ5hsd0ifzwGtN7ZF7RZ8ppM7Ldinuoiif" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="d-flex navbar navbar-expand-md flex-column flex-md-row align-items-center p-3 px-md-4 bg-dark box-shadow sticky-top">
+        <div class="container nav">
+            <a class="navbar-brand text-light" href="https://fontawesome.com/">
+                <i class="fas fa-code"></i>
+            </a>
+            <h5 class="navbar-brand my-0 mr-md-auto font-weight-bold text-light">Gerry's Studio</h5>
+
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#gerry-nav" aria-controls="gerry-nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="gerry-nav">
+                <ul class="navbar-nav my-2 my-md-0 mr-md-3 navbar-dark">
+                    <li class="nav-item">
+                        <a class="nav-link p-2 text-light" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 text-light" href="about.html" active>About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 text-light" href="work.html">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 text-light" href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </div>
 
     <section class="container" id="showcase">
         <div class="container">
@@ -34,10 +57,15 @@
         </div>
         <div class="row mt-5 pt-5">
             <div class="col-md-8">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veritatis dolore dolorum omnis, doloribus quam reiciendis. Dicta veritatis architecto maxime laudantium beatae dolore dolor nostrum, tenetur, mollitia fugit nemo expedita reiciendis consequuntur molestias? Voluptates ipsam at magnam quis nobis. Labore magnam ea quam dolor autem id ab velit exercitationem provident.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veritatis dolore dolorum omnis, doloribus
+                    quam reiciendis. Dicta veritatis architecto maxime laudantium beatae dolore dolor nostrum, tenetur, mollitia
+                    fugit nemo expedita reiciendis consequuntur molestias? Voluptates ipsam at magnam quis nobis. Labore
+                    magnam ea quam dolor autem id ab velit exercitationem provident.</p>
             </div>
             <div class="col-md-4">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum mollitia repudiandae laboriosam enim vitae inventore quas ducimus perferendis deserunt, eaque quae odit aspernatur nostrum quaerat laudantium dolores. Molestiae, quae harum?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum mollitia repudiandae laboriosam enim vitae
+                    inventore quas ducimus perferendis deserunt, eaque quae odit aspernatur nostrum quaerat laudantium dolores.
+                    Molestiae, quae harum?</p>
             </div>
         </div>
     </section>
@@ -49,12 +77,16 @@
 
 
     <footer class="bg-dark text-light">
-            <p class="text-center mb-0 pb-0">Copyright: &copy; Gerry Studio 2018</p>
+        <p class="text-center mb-0 pb-0">Copyright: &copy; Gerry Studio 2018</p>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
