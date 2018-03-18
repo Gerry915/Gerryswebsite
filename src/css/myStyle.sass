@@ -9,6 +9,9 @@ $heading-font: 'Ubuntu', sans-serif;
 .myBrand
     padding-bottom: 10px
 
+.box-shadow
+    box-shadow: 0 3px 20px
+
 #myBody
     font-family: $body-font
 
@@ -91,4 +94,70 @@ footer
   height: 500px
   width: 100%
   background-color: rgba(0,0,0,0.7)
-    
+
+@keyframes icon-float-right 
+  0% 
+    top: 20px
+    right: 20px
+  
+
+  100% 
+    top: 0px
+    right: 0px
+  
+
+
+
+.icons-float-right 
+  transform: rotate(30deg)
+  position: relative
+  animation-name: icon-float-right
+  animation-duration: 1.5s
+  animation-direction: alternate-reverse
+  animation-timing-function: ease-in-out
+  animation-iteration-count: infinite
+
+
+@keyframes icon-float-up 
+  0% 
+    top: 20px
+  
+
+  100% 
+    top: 0px
+  
+
+
+
+.icons-float-up 
+  position: relative
+  animation-name: icon-float-up
+  animation-duration: 1.5s
+  animation-direction: alternate-reverse
+  animation-timing-function: ease-in-out
+  animation-iteration-count: infinite
+
+
+@keyframes icon-float-left 
+  0% 
+    top: 20px
+    left: 20px
+  
+
+  100% 
+    top: 0px
+    left: 0px
+  
+
+
+
+.icons-float-left 
+  transform: rotate(-30deg)
+  position: relative
+  animation-name: icon-float-left
+  animation-duration: 1.5s
+  animation-direction: alternate-reverse
+  animation-timing-function: ease-in-out
+  animation-iteration-count: infinite
+
+
