@@ -60,6 +60,7 @@
         <div class="col-md-5 p-lg-5 mx-auto my-5">
             <h1 class="display-2 font-weight-normal">Hi, I'm Gerry</h1>
             <p class="lead font-weight-normal">Developer / Designer :)</p>
+            <p class="text-muted font-weight-normal">iOS / Andriod / Web / Design Enthusiast</p>
             <br>
             <a class="btn btn-lg btn-outline-light" href="#">Learn more about Me</a>
         </div>
@@ -149,47 +150,9 @@
                 </div>
             </div>
         </div>
-
-
-
-        <!--
-        <div class="row">
-                <div class="left-group bg-primary col-sm-auto">
-                        <div class="icons-float-left" style="animation-delay: 0.3s; margin-right: 550px;">
-                                <i class="fab fa-angrycreative" style="width:100px;height:auto;"></i>
-                                <i class="fas fa-adjust" style="width:50px;height:auto;"></i>
-                            </div>
-                        <div class="icons-float-left">
-                            <i class="fab fa-accessible-icon" style="width:50px;height:auto;"></i>
-                            <i class="fab fa-app-store" style="width:50px;height:auto;"></i>
-                        </div>
-                        <div class="icons-float-left" style="animation-delay: 0.3s; margin-right: 550px;">
-                            <i class="fab fa-apple" style="width:30px;height:auto;"></i>
-                            <i class="fab fa-bluetooth-b" style="width:30px;height:auto;"></i>
-                        </div>
-                </div>
-        
-                <div class="left-group bg-danger col-sm-auto">
-                        <div class="icons-float-left" style="animation-delay: 0.3s; margin-right: 550px;">
-                                <i class="fab fa-angrycreative" style="width:100px;height:auto;"></i>
-                                <i class="fas fa-adjust" style="width:50px;height:auto;"></i>
-                            </div>
-                        <div class="icons-float-left">
-                            <i class="fab fa-accessible-icon" style="width:50px;height:auto;"></i>
-                            <i class="fab fa-app-store" style="width:50px;height:auto;"></i>
-                        </div>
-                        <div class="icons-float-left" style="animation-delay: 0.3s; margin-right: 550px;">
-                            <i class="fab fa-apple" style="width:30px;height:auto;"></i>
-                            <i class="fab fa-bluetooth-b" style="width:30px;height:auto;"></i>
-                        </div>
-                </div>
-        </div>
-    -->
-
-
     </div>
 
-    <section id="showcase">
+    <section id="showcase" class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
@@ -205,18 +168,84 @@
                             eius ut, reprehenderit dolore dolor beatae voluptate!</p>
                     </div>
                     <br>
-                    <a class="btn btn-default btn-lg showcase-btn">Read More</a>
+                    <div class="scaled-btn d-inline-block">
+                        <a class="btn btn-outline btn-lg showcase-btn">Read More</a>
+                    </div>
+
                 </div>
 
             </div>
         </div>
     </section>
 
-    <section id="testimonial">
-        <div class="container">
+    <section id="testimonial" class="bg-dark">
+        <div class="container text-light">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, assumenda! Eligendi asperiores unde, at optio
-                minima voluptatem quaerat, animi soluta nam eveniet quis cum dolorum velit aspernatur officiis esse odio.</p>
-            <p class="customer">- John Doe</p>
+                minima voluptatem quaerat, animi soluta nam eveniet quis cum dolorum velit aspernatur officiis esse odio.Eligendi
+                asperiores unde, at optio minima voluptatem quaerat, animi soluta nam eveniet quis cum dolorum velit aspernatur
+                officiis esse odio.</p>
+        </div>
+    </section>
+
+    <section id="slide" class="my-5">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item slideItem active">
+                    <img class="first-slide slideImg img-fluid img-responsive" src="/src/img/coding.jpeg" alt="First slide">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>Explore my coding projects</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                                at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p>
+                                <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item slideItem">
+                    <img class="second-slide slideImg img-fluid" src="/src/img/design.jpeg" alt="Second slide">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>How about a little bit UI design</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                                at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p>
+                                <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item slideItem">
+                    <img class="third-slide slideImg img-fluid" src="/src/img/drawing.jpeg" alt="Third slide">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="carousel-caption text-right">
+                            <h1>See my CG works</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                                at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p>
+                                <a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </section>
 
@@ -239,68 +268,6 @@
                     <a class="btn btn-default btn-lg showcase-btn">Read more</a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section id="slide" class="my-5">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item slideItem active">
-                    <img class="first-slide slideImg img-fluid img-responsive" src="/src/img/coding.jpeg" alt="First slide">
-                    <div class="overlay"></div>
-                    <div class="container">
-                        <div class="carousel-caption text-left">
-                            <h1>Example headline.</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
-                                at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p>
-                                <a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item slideItem">
-                    <img class="second-slide slideImg img-fluid" src="/src/img/design.jpeg" alt="Second slide">
-                    <div class="overlay"></div>
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <h1>Another example headline.</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
-                                at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p>
-                                <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item slideItem">
-                    <img class="third-slide slideImg img-fluid" src="/src/img/drawing.jpeg" alt="Third slide">
-                    <div class="overlay"></div>
-                    <div class="container">
-                        <div class="carousel-caption text-right">
-                            <h1>One more for good measure.</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
-                                at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p>
-                                <a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
     </section>
 

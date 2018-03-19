@@ -54,20 +54,15 @@
 }
 
 #testimonial {
-  background: #f1f1f1;
+  height: 300px;
   padding: 50px 0 30px 0;
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 #testimonial p {
-  font-size: 24px;
-}
-
-#testimonial p.customer {
-  font-size: 16px;
-  color: #666666;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
 }
 
 .slice_1 {
@@ -181,5 +176,13 @@ footer {
   animation-direction: alternate-reverse;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+}
+
+.scaled-btn {
+  transition-duration: 1s;
+}
+
+.scaled-btn:hover {
+  transform: scale(1.2);
 }
 /*# sourceMappingURL=myStyle.css.map */
