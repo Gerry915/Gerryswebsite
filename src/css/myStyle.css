@@ -120,8 +120,8 @@ footer {
 
 @keyframes icon-float-right {
   0% {
-    top: 20px;
-    right: 20px;
+    top: 60px;
+    right: 50px;
   }
   100% {
     top: 0px;
@@ -135,16 +135,16 @@ footer {
   animation-name: icon-float-right;
   animation-duration: 1.5s;
   animation-direction: alternate-reverse;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-out;
   animation-iteration-count: infinite;
 }
 
 @keyframes icon-float-up {
   0% {
-    top: 20px;
+    bottom: 80px;
   }
   100% {
-    top: 0px;
+    bottom: 0px;
   }
 }
 
@@ -153,14 +153,14 @@ footer {
   animation-name: icon-float-up;
   animation-duration: 1.5s;
   animation-direction: alternate-reverse;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in;
   animation-iteration-count: infinite;
 }
 
 @keyframes icon-float-left {
   0% {
-    top: 20px;
-    left: 20px;
+    top: 60px;
+    left: 50px;
   }
   100% {
     top: 0px;
@@ -174,7 +174,7 @@ footer {
   animation-name: icon-float-left;
   animation-duration: 1.5s;
   animation-direction: alternate-reverse;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-out;
   animation-iteration-count: infinite;
 }
 
