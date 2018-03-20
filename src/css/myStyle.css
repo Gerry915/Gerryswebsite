@@ -80,11 +80,6 @@
 #contact {
   margin-top: 50px;
   padding-top: 20px;
-  background: url(../img/pexels-photo-160107.jpeg);
-  border-top: #333 7px solid;
-  border-bottom: #333 7px solid;
-  background-position-x: left;
-  background-position-y: bottom;
 }
 
 #contact .submit-btn {
@@ -93,7 +88,7 @@
 }
 
 footer {
-  padding-top: 20px;
+  box-shadow: 2px 0px 10px #222222;
 }
 
 .slide {
@@ -120,8 +115,8 @@ footer {
 
 @keyframes icon-float-right {
   0% {
-    top: 60px;
-    right: 50px;
+    top: 20px;
+    right: 10px;
   }
   100% {
     top: 0px;
@@ -135,16 +130,16 @@ footer {
   animation-name: icon-float-right;
   animation-duration: 1.5s;
   animation-direction: alternate-reverse;
-  animation-timing-function: ease-out;
+  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
 
 @keyframes icon-float-up {
   0% {
-    bottom: 80px;
+    top: 20px;
   }
   100% {
-    bottom: 0px;
+    top: 0px;
   }
 }
 
@@ -153,14 +148,14 @@ footer {
   animation-name: icon-float-up;
   animation-duration: 1.5s;
   animation-direction: alternate-reverse;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
 
 @keyframes icon-float-left {
   0% {
-    top: 60px;
-    left: 50px;
+    top: 20px;
+    left: 10px;
   }
   100% {
     top: 0px;
@@ -174,7 +169,7 @@ footer {
   animation-name: icon-float-left;
   animation-duration: 1.5s;
   animation-direction: alternate-reverse;
-  animation-timing-function: ease-out;
+  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
 
@@ -184,5 +179,9 @@ footer {
 
 .scaled-btn:hover {
   transform: scale(1.2);
+}
+
+#avatar {
+  height: auto;
 }
 /*# sourceMappingURL=myStyle.css.map */
