@@ -179,4 +179,8 @@ footer {
 #avatar {
   height: auto;
 }
+
+.work-sample-card {
+  border-radius: 5px;
+}
 /*# sourceMappingURL=myStyle.css.map */
