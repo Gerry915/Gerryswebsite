@@ -168,6 +168,36 @@ footer {
   animation-iteration-count: infinite;
 }
 
+@keyframes progress-100 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.progress-100 {
+  animation-name: progress-100;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes progress-75 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+.progress-75 {
+  animation-name: progress-75;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+}
+
 .scaled-btn {
   transition-duration: 1s;
 }
@@ -182,5 +212,13 @@ footer {
 
 .work-sample-card {
   border-radius: 5px;
+}
+
+canvas {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  background-color: #333333;
+  cursor: ns-resize;
 }
 /*# sourceMappingURL=myStyle.css.map */

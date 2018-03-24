@@ -55,16 +55,16 @@
                     <img id="avatar" class="w-25 avatar" src="/src/img/avatar.png">
             </div>
                 <div>
-                        <h1 class="display-2 text-center mt-5 pt-5 about-title">
+                        <h1 class="display-2 text-center mt-3 about-title">
                             Hi, my name is Gerry Gao.<br> A software developer and a designer.
                         </h1>
                     </div>
-                    <div class="mytext row mt-5 pt-5">
+                    <div class="mytext row py-2">
                         <div class="col-md-8">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veritatis dolore dolorum omnis, doloribus
-                                quam reiciendis. Dicta veritatis architecto maxime laudantium beatae dolore dolor nostrum, tenetur, mollitia
-                                fugit nemo expedita reiciendis consequuntur molestias? Voluptates ipsam at magnam quis nobis. Labore
-                                magnam ea quam dolor autem id ab velit exercitationem provident.</p>
+                                <svg style="width:200px;height:200px; background-color:#333333" class="wave">
+                                      <defs></defs>
+                                      <path id="demo" d="">
+                                    </svg>
                         </div>
                         <div class="col-md-4">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum mollitia repudiandae laboriosam enim vitae
@@ -73,13 +73,36 @@
                         </div>
                     </div>
         </div>
+        <div class="container">
+            <div class="card">
+                <h1 class="card-header display-4 bg-dark text-light">Skill list</h1>
+                <div class="skill-group card-body">
+                        <h4 class="card-title text-center">HTML/CSS/JS</h4>
+                        <div class="progress progress-75 progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="75" style="width:75%">75%</div>
+                        <br>
+                        <h4 class="card-title text-center">SASS</h4>
+                        <div class="progress progress-100 progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
+                        <br>
+                        <h4 class="card-title text-center">Swift</h4>
+                        <div class="progress progress-100 progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
+                        <br>
+                        <h4 class="card-title text-center">php</h4>
+                        <div class="progress progress-100 progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
+                        <br>
+                        <h4 class="card-title text-center">Photoshop</h4>
+                        <div class="progress progress-100 progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
+                        <br>
+                        <h4 class="card-title text-center">React</h4>
+                        <div class="progress progress-100 progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
+                        
+                </div>
+
+                
+        </div>
         
     </section>
 
-    <section id="push-up">
-        <div style="height: 1000px"></div>
-    </section>
-
+   
 
 
     <footer class="bg-dark text-light">
@@ -87,6 +110,22 @@
     </footer>
     
     <!-- Optional JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./src/js/myScript.js"></script>
+    <script type="text/javascript" src="./src/js/jquery.wavify.js"></script>
+    <script>
+        $('#demo').wavify({
+            height: 200,
+            amplitude: 100,
+            speed: .15,
+            bones: 3,
+            color: 'rgba(255,255,255, 0.20)'
+        });
+
+        
+
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
