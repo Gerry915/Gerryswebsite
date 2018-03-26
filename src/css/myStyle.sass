@@ -159,8 +159,19 @@ footer
     100%
         width: 75%
 
+@keyframes progress-90
+    0%
+        width: 0%
+    100%
+        width: 90%
+
 .progress-75
     animation-name: progress-75
+    animation-duration: 1.5s
+    animation-timing-function: ease-in
+
+.progress-90
+    animation-name: progress-90
     animation-duration: 1.5s
     animation-timing-function: ease-in
 
@@ -178,9 +189,3 @@ footer
 .work-sample-card
     border-radius: 5px
 
-canvas
-    width: 200px
-    height: 200px
-    overflow: hidden
-    background-color: #333333
-    cursor: ns-resize
