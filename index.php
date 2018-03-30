@@ -66,9 +66,9 @@
   <section id="head-section">
     <div id="topShowcase" class="position-relative overflow-hidden p-3 p-md-5 text-center bg-dark text-light">
       <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-2 font-weight-normal">Hi, I'm Gerry</h1>
+        <h1 class="display-2 font-weight-normal">Hi, I'm Gerry<?php echo "From php!"?></h1>
         <p class="lead font-weight-normal">Developer / Designer :)</p>
-        <p class="text-muted font-weight-normal">iOS /  Web / Design Enthusiast</p>
+        <p class="text-muted font-weight-normal">iOS / Android / Web / Design Enthusiast</p>
         <br>
 
         <a class="btn btn-lg btn-outline-light" href="./about.html">Learn more about Me</a>
@@ -295,7 +295,7 @@
             <div class="form-group">
               <input class="form-control form-control-lg m-3" type="text" name="name" value="" placeholder="Enter name">
               <input class="form-control form-control-lg m-3" type="text" name="email" value="" placeholder="Enter Email">
-              <textarea class="form-control form-control-lg m-3" name="message" placeholder="Enter Message" rows="3"></textarea>
+              <textarea class="form-control form-control-lg m-3" name="message" placeholder="Message" rows="2"></textarea>
               <!--<button type="submit" class="btn btn-outline-light btn-lg m-3">Submit</button>-->
               <input type="submit" value="Submit">
             </div>
