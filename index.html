@@ -52,9 +52,8 @@
           <li class="nav-item">
               <span class="nav-link p-2 text-light">|</span>
             </li>
-
           <li class="nav-item">
-              <a class="nav-link p-2 text-light" href="./login.php">Sign In</a>
+              <a class="nav-link p-2 text-light" href="#">Sign In</a>
             </li>
         </ul>
       </div>
@@ -190,15 +189,6 @@
     </div>
   </section>
 
-  <section id="testimonial" class="bg-dark">
-    <div class="container text-light">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, assumenda! Eligendi asperiores unde, at optio minima
-        voluptatem quaerat, animi soluta nam eveniet quis cum dolorum velit aspernatur officiis esse odio.Eligendi asperiores
-        unde, at optio minima voluptatem quaerat, animi soluta nam eveniet quis cum dolorum velit aspernatur officiis esse
-        odio.</p>
-    </div>
-  </section>
-
   <section id="slide" class="my-3">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -270,20 +260,28 @@
 
   <section id="contact" class="bg-dark">
     <div class="container text-light py-4">
-      <div class="row">
-        <div class="col-lg-6">
-            <h2 class="display-4">Contact me:</h2>
-        </div>
-        <div class="col-lg-6">
-          <div id="email">
-          <i class="fas fa-envelope" style="width:auto;height:30px"></i>
-          <h5 class="d-inline display-5 ml-3 align-text-bottom">gao88915@gmail.com</h5>
+      <div class="row text-center">
+        <div class="col-lg-12 text-left" style="padding-left:100px">
+          <div class="center-container">
+              <div id="email" class="p-3">
+                  <i class="fas fa-envelope" style="width:auto;height:30px"></i>
+                  <a href="@gao88915@gmail.com" class="ml-3 text-light align-text-bottom">My Email</a>
+                  </div>
+              <div id="linkedin" class="p-3">
+                  <i class="fab fa-linkedin"style="width:auto;height:30px"></i>
+                  <a href="https://www.linkedin.com/in/gerry-gao-560021159/" class="ml-3 text-light align-text-bottom">My Linkedin</a>
+              </div>
+              <div id="facebook" class="p-3">
+                  <i class="fab fa-facebook" style="width:auto;height:30px"></i>
+                  <a href="https://www.facebook.com/gerry.gao.775" class="ml-3 text-light align-text-bottom">My Facebook</a>
+              </div>
+              
+                  <div id="github" class="p-3">
+                      <i class="fab fa-github-square" style="width:auto;height:30px"></i>
+                      <a href="https://github.com/Gerry915" class="ml-3 text-light align-text-bottom">My Github</a>
+                  </div>
           </div>
-          <br>
-          <div id="github">
-              <i class="fab fa-github-square" style="width:auto;height:30px"></i>
-              <a href="https://github.com/Gerry915" class="ml-3 text-light">github.com/Gerry915</a>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -292,8 +290,6 @@
   <footer class="bg-dark text-light py-4">
     <p class="text-center mb-0 pb-0">Designed by Gerry Gao 2018</p>
   </footer>
-
-  .0
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -307,46 +303,46 @@
     window.sr = ScrollReveal();
 
     sr.reveal('.showcase-left', {
-      duration: 2000,
+      duration: 1500,
       origin: 'left',
-      distance: '300px',
+      distance: '100px',
       viewFactor: 0.5
     });
 
     sr.reveal('.showcase-right', {
-      duration: 2000,
+      duration: 1500,
       origin: 'right',
-      distance: '300px',
+      distance: '100px',
       viewFactor: 0.5
     });
 
 
 
     sr.reveal('.showcase-btn', {
-      duration: 2000,
+      duration: 1500,
       delay: 1000,
       origin: 'bottom'
 
     });
 
     sr.reveal('#testimonial div', {
-      duration: 2000,
+      duration: 1500,
       origin: 'bottom'
     });
 
 
     sr.reveal('.slice_1', {
-      duration: 2500,
+      duration: 1500,
       origin: 'left',
-      distance: '300px',
+      distance: '100px',
       viewFactor: 0.2
     });
 
 
     sr.reveal('.info-right', {
-      duration: 2000,
+      duration: 1500,
       origin: 'right',
-      distance: '300px',
+      distance: '100px',
       viewFactor: 0.2
     });
   </script>
