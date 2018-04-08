@@ -1,0 +1,13 @@
+#Home Page Showcase#
+<h1>Programming is Fun!</h1>
+<p>For me, programming is always a enjoyable 
+thing to do. From the idea in my head, to 
+the first prototype. Every loops, functions,
+classes. What's satisfiy me is that I can see
+my idea become finish product and I can share them
+with the whole world!</p>
+
+
+#Home page Showcase2#
+<h1>Not always about coding!</h1>
+<p></p>
