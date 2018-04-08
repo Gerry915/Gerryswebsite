@@ -177,7 +177,7 @@ footer
 
 
 .scaled-btn
-    transition-duration: 1s
+    transition-duration: .3s
 
 .scaled-btn:hover
     transform: scale(1.2)
@@ -188,4 +188,28 @@ footer
 
 .work-sample-card
     border-radius: 5px
+
+.wrap-box
+    width: 25%
+    position: relative
+    @media screen and (min-width: 200px)
+        width: 100%
+    @media screen and (min-width: 700px)
+        width: 50%
+    @media screen and (min-width: 1000px)
+        width: 25%
+.wrap-overlay
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+
+
+.wrap-box:hover .wrap-overlay
+    height: 100%
 
