@@ -267,4 +267,14 @@ footer {
 .wrap-box:hover .wrap-overlay {
   height: 100%;
 }
+
+.info-img {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  background-image: url("../img/coding.jpeg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+}
 /*# sourceMappingURL=myStyle.css.map */
