@@ -14,6 +14,10 @@
   }
 }
 
+.describe-content {
+  font-family: "Roboto", sans-serif;
+}
+
 .myBrand {
   padding-bottom: 10px;
 }
@@ -266,5 +270,9 @@ footer {
 
 .wrap-box:hover .wrap-overlay {
   height: 100%;
+}
+
+.wrap-img {
+  object-fit: fill;
 }
 /*# sourceMappingURL=myStyle.css.map */
